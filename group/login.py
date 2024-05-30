@@ -10,7 +10,7 @@ class loginApp:
         self.master = master
         self.master.title("Login System")
         self.master.geometry("600x350")
-        self.master.configure(bg='blue')
+        self.master.configure(bg='pink')
 
         self.accounts={
             "admin": "123",
