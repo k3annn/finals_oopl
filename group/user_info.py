@@ -60,7 +60,7 @@ image = Image.open("adamson.jpg")
 image = image.resize((100, 100))
 photo = ImageTk.PhotoImage(image)
 
-frame = Frame(window, width=900, height=500, bg="light gray")
+frame = Frame(window, width=900, height=500, bg="blue")
 frame.place(relx=0.5, rely=0.5, anchor=CENTER)
 
 
